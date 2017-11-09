@@ -58,6 +58,10 @@
 	font-family: 'aktiv-grotesk', sans-serif;
 }
 
+.header-right:hover {
+	background: white;
+}
+
 /*========*/ /*Body*/ /*========*/
 .center-body {
 	display: flex;
@@ -111,11 +115,19 @@ h6 {
 	width: 200px;
 	height: 50px;
 	border-radius: 100em;
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
 	background: white;
 	color: blue;
 	margin-top: 10px;
 	font-family: 'aktiv-grotesk', sans-serif;
 	/*margin-top: 50px;*/
+}
+
+.explore:hover {
+	background: transparent;
+	color: white;
 }
 
 .footer {
@@ -174,8 +186,9 @@ h6 {
 .facebook-logo {
 	height: 50px;
 	width: 70px;
-	position: absolute;
-	right: 0.1px;
+	display: flex;
+	justify-content: center;
+	/*background: purple;*/
 }
 
 .circle2:hover {
