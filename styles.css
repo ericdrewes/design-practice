@@ -1,0 +1,229 @@
+.content {
+	background: blue;
+	display: flex;
+	flex-direction: column;
+	background-image: url('https://s3.amazonaws.com/blog.invisionapp.com/uploads/2017/08/designbetter-blog-images-launch-bg.png?ver=1');
+}
+
+/*========*/
+/*Header*/
+/*========*/
+.header {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 10%;
+	width: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	/*background: white;*/
+}
+
+.header-left {
+	/*background: red;*/
+	width: 20%;
+	height: 100px;
+	font-family: 'aktiv-grotesk', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-center {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 100px;
+	width: 500px;
+	/*background: green;*/
+	font-size: 11px;
+	font-family: 'aktiv-grotesk', sans-serif;
+}
+
+.header-right {
+	height: 50px;
+	width: 150px;
+	/*background: purple;*/
+	border-radius: 100em;
+	border-width: thin;
+	border-style: solid;
+	border-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 11px;
+	font-family: 'aktiv-grotesk', sans-serif;
+}
+
+/*========*/ /*Body*/ /*========*/
+.center-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 900px;
+	/*background: pink;*/
+	margin-top: 100px;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	/*background: orange*/
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-family: 'aktiv-grotesk', sans-serif;
+}
+
+.intro {
+	width: 50%;
+	/*background: green;*/
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-family: 'aktiv-grotesk', sans-serif;
+}
+h4 {
+	font-family: 'aktiv-grotesk', sans-serif;
+}
+h6 {
+	display: block;
+	font-size: 0.9 em;
+}
+
+.explore {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 50px;
+	border-radius: 100em;
+	background: white;
+	color: blue;
+	margin-top: 10px;
+	font-family: 'aktiv-grotesk', sans-serif;
+	/*margin-top: 50px;*/
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.scroll {
+	font-family: 'aktiv-grotesk', sans-serif;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-left: 60px;
+}
+
+.links {
+}
+
+.circle1 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: transparent;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
+}
+
+.twitter-logo {
+	height: 50px;
+	width: 50px;
+}
+
+.circle1:hover {
+	background-color: white;
+}
+
+.circle2 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: transparent;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
+}
+
+.facebook-logo {
+	height: 50px;
+	width: 70px;
+	position: absolute;
+	right: 0.1px;
+}
+
+.circle2:hover {
+	background-color: white;
+}
+
+.circle3 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: transparent;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
+}
+
+.linkdin-logo {
+	height: 50px;
+	width: 50px;
+}
+
+.circle3:hover {
+	background-color: white;
+}
+
+.circle4 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: transparent;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
+}
+
+.copy {
+	height: 40px;
+	width: 40px;
+	padding-left: 3px;
+	padding-top: 5px;
+}
+
+.circle4:hover {
+	background-color: white;
+}
