@@ -130,11 +130,12 @@ h6 {
 	color: white;
 }
 
-.footer {
+.intro-footer {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	/*background: purple;*/
 }
 
 .scroll {
@@ -143,9 +144,6 @@ h6 {
 	display: flex;
 	justify-content: center;
 	padding-left: 60px;
-}
-
-.links {
 }
 
 .circle1 {
@@ -239,4 +237,55 @@ h6 {
 
 .circle4:hover {
 	background-color: white;
+}
+
+.background {
+	background: white;
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-style: solid;
+	border-width: 20px;
+	border-color: darkblue;
+}
+
+.books {
+	/*padding-top: 250px;*/
+	font-family: 'aktiv-grotesk', sans-serif;
+	font-size: 14px;
+	/*background: green;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+.page2-title {
+	padding-top: 25px;
+	/*background: yellow;*/
+	font-family: 'aktiv-grotesk', sans-serif;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	height: 150;
+}
+
+.page2-introtext {
+	/*background: pink;*/
+	width: 600px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p {
+	text-align: center;
+}
+
+.page2-image {
+	height: 900px;
+	width: 800px;
 }
